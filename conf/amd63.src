@@ -1,0 +1,6 @@
+SOURCE_URL=https://dl.vikunja.io/api/0.17.1/vikunja-v0.17.1-linux-amd64-full
+SOURCE_SUM=8e96453f346e362a525dfe00788d57e8e44deb583aabaa4dc7c0d276cc5a4347
+SOURCE_SUM_PRG=sha256sum
+SOURCE_IN_SUBDIR=false
+SOURCE_FILENAME=vikunja
+SOURCE_EXTRACT=false
