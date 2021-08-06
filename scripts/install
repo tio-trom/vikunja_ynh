@@ -93,7 +93,7 @@ ynh_app_setting_set --app=$app --key=final_path --value=$final_path
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$final_path" --source_id="front"
 
-ynh_replace_string --match_string="window.API_URL = \'api/v1\'" --replace_string="window.API_URL = \'$domain/api/v1\'" --target_file="$final_path/index.html"
+ynh_replace_string --match_string="window.API_URL = \'/api/v1\'" --replace_string="window.API_URL = \'$domain/api/v1\'" --target_file="$final_path/index.html"
 
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
