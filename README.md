@@ -46,9 +46,9 @@ The API is accesible with this path: https://domain.ltd/api/v1/docs
 
 * Official app website: <https://vikunja.io/>
 * Official admin documentation: <https://vikunja.io/docs/>
-* Upstream app code repository: <https://kolaente.dev/vikunja/>
+* Upstream app code repository: <https://github.com/go-vikunja/frontend
 * YunoHost documentation for this app: <https://yunohost.org/app_vikunja>
-* Report a bug: <https://github.com/YunoHost-Apps/vikunja_ynh/issues>
+* Report a bug: <https://github.com/go-vikunja/frontend>
 
 ## Developer info
 
